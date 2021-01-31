@@ -76,18 +76,18 @@ header{
       
         
 }
-.form-signup #button {
-     display: flex;
+#button {
+    display: flex;
     justify-content: space-around;
        
 }
- #reset,#submit {
+ #reset, #submit {
     color: mediumblue;
     border-radius: 5px;
     background-color: rgb(245, 255, 250);
     box-shadow: 1px 1px 1px rgb(245, 255, 250) ;
  }
-.form-signup  #hobbies {
+#hobbies {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
