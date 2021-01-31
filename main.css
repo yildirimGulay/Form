@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+}
+header{
+    height: 60px;
+    background: linear-gradient(90deg, blue 0%, pink 100% );
+    position: relative;
+  
+}
+.form-signin{
+    background-color: burlywood;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    right: 40px;
+
+}
+.chk{
+    display: none;
+   
+}
+.chk:checked +.form-signin{
+    display: block;
+}
+
+.lbl{
+    padding: 10px;
+    background-color: mediumblue;
+    color: #fff;
+    position: absolute;
+    right: 30px;
+    border-radius: 10px;
+    width: 70px;
+    text-align: center;
+    margin-top: 10px; 
+     
+}
+.lbl:hover{
+    cursor: pointer;
+}
+
+.form-signup{
+    background-color: burlywood;
+    width: 400px;
+    height: auto;
+    padding: 20px ;
+    border-radius: 10px;
+    display: none; 
+    position: absolute;
+    right: 40px;
+    top:200px;
+    color: mediumblue;
+    
+}
+#fieldsetup{
+       
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+    
+.form-signup td{
+        
+    padding: 5px ; 
+    text-align: start;
+               
+}
+.form-signup label{
+    padding: 5px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+      
+        
+}
+.form-signup #button {
+     display: flex;
+    justify-content: space-around;
+       
+}
+ #reset,#submit {
+    color: mediumblue;
+    border-radius: 5px;
+    background-color: rgb(245, 255, 250);
+    box-shadow: 1px 1px 1px rgb(245, 255, 250) ;
+ }
+.form-signup  #hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+#year{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chkup{
+    display: none;
+       
+}
+.chkup:checked +.form-signup{
+    display: block;
+}
+    
+.lblup{
+    padding: 10px;
+    background-color: mediumblue;
+    color: #fff;
+    position: absolute;
+    right: 140px;
+    border-radius: 10px;
+    width: 70px;
+    text-align: center;
+    margin-top: 10px; 
+        
+}
+.lblup:hover{
+    cursor: pointer;
+}
+    

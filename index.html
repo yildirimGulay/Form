@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   
+</head>
+<body>
+    <header>
+
+        <label class="lbl">
+            <input type="checkbox" class="chk">  Sign In
+    
+            <form class="form-signin">
+                <fieldset>
+                    <legend>Sign In Form</legend>
+                    <label>UserName : <input type="text">  </label><br><br>
+                    <label>Password : <input type="password"></label><br><br>
+                    <input type="submit" value="Submit">
+
+                </fieldset>
+        
+            </form>
+        </label>
+
+        <label class="lblup">
+            <input type="checkbox" class="chkup">  Sign Up
+    
+            <form class="form-signup" autocomplete="on">
+       
+                <fieldset id="fieldsetup">
+                    <legend>Sign Up Form</legend>
+                    <table>
+                        <tr>
+                            <td><label>First Name: <input type="text">  </label></td> 
+                        </tr>
+
+                        <tr>
+                            <td><label>Second Name: <input type="text"></label></td>
+                        </tr>
+
+                        <tr>
+                            <td> <label>Surname: <input type="text"  >  </label></td>
+                             
+                        </tr>
+
+                        <tr>
+                            <td> <label>Date of Birth: <input type="date"   required>  </label></td>
+                        </tr>
+
+                        <tr>
+                            <td> <label>Email: <input type="email"   required>  </label></td>
+                        </tr>
+
+                        <tr id="year"> 
+                            <td> Graduating year</td>
+                            <td>   
+                                <select>
+                                    <option value="year">2011</option>
+                                    <option value="year2">2012</option>
+                                    <option value="year3">2013</option>
+                   
+                                </select>
+                            </td>
+                        </tr>
+                         
+                        <tr>
+                            <td><label> Favori color <input type="color"  > </label></td>
+                        </tr>
+
+                        <tr id="hobbies">
+                            <td> Hobbies:<br> <label> <input type="checkbox"  > Reading </label></td>
+
+                            <td><label> <input type="checkbox"  > Running </label></td><br>
+                        </tr>
+                    
+                        <tr id="button">
+                            <td> <input id="reset" type="reset" value="Reset"></td>
+    
+                            <td> <input id ="submit" type="submit" value="Submit"></td>
+                        </tr>
+                    
+                    </table>
+                </fieldset>
+         
+            </form>
+        </label>
+    </header>
+
+</body>
+</html>
